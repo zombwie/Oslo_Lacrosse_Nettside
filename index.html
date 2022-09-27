@@ -4,14 +4,25 @@
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
-        <div class="logo">
-            <img src="/bilder/Logo.png" alt="logo" width="130%">
+    <body class="bakgrund">
+      <div class="navbar">
+        <div>
+        <a href="index.html">
+          <div class="logo">
+            <img src="/bilder/Logo.png" alt="logo" width="100px">
+           </div>
+        </a>
+    </div>
+        <div>
+          <div class="navk">
+            <button class="knapp" id="laget" style="width: 200px; font-size: 200%;"><a href="mere.html">Mere info</a></button>
+          </div>
         </div>
+      </div>
         <div class="titltle">
             <h1>Oslo Lacross</h1>
             <div class="flex-container" style="justify-content: center;">
-                <div class="knapp" id="laget" style="width: 400px;">Bli med på laget!</div>
+                <button onClick="document.getElementById('bli').scrollIntoView();" class="knapp" id="laget" style="width: 400px;">Bli med på laget!</button>
               </div>
         </div>
         <div class="inhold">
@@ -23,7 +34,7 @@
                     <div class="info">
                         Lacrosse er en idrett med lang og stolt historie, helt tilbake til 1600-tallet. Dens opphav var som et spill mellom ulike indianerstammer i Nord Amerika og idrettens seremonier er fremdeles preget av indianske tradisjoner. 
                     </div>
-                    <div class="knapp" style="width: 200px;">Finn ut mere!</div>
+                    <div class="knapp" style="width: 200px;"><a href="https://amerikanskeidretter.no/forbund/">Finn ut mere!</a></div>
                 </div>
                 <div>
                 <img src="/bilder/goal.JPG" id="goal" alt="logo" width="80%" class="bilder">
@@ -34,11 +45,11 @@
         <div class="inhold">
             <div class="flex-container">
                 <div>
-                  <div class="overskrift">
+                  <div class="overskrift" id="bli">
                     Kontakt oss
                 </div>
                 <div class="info">
-                    Om du er intresert i å bli med på laget ta kontakt med.Leder: Stina Bjørnenæs, stina@oslolax.no. 77 55 66 22 (tilgjengelig på telefon mellom 10.00-15-00 man-tor)                     
+                    Om du er intresert i å bli med på laget ta kontakt med. Leder: Stina Bjørnenæs, stina@oslolax.no. 77 55 66 22 (tilgjengelig på telefon mellom 10.00-15-00 man-tor)                     
                 </div>
                 </div>
                 <div>
