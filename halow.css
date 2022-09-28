@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #FF5B00;
     color: #000;
     font-family: "Century Gothic", Candara, Calibri, Arial, sans-serif;
     font-size: 14px;
@@ -30,7 +30,7 @@ ul {
 }
 /* setter størrelsen på tittelen og farger den svart */
 a {
-    color: #000;
+    color: #990000;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -44,19 +44,19 @@ a:hover {
 }
 /* endrer fargen når man holder over menyen */
 .knapp{
-    color: #000;
+    color: #990000;
     font-size: 100%;
     font: "Century Gothic";
     text-align: center;
     padding: 10px 20px;
     border-radius: 44px;
     border: 2px solid #000;
-    background-color: #fff;
+    background-color: black;
     margin: 10px;
 }
 /* lager knappen med runder hjørner */
 .knapp:hover{
-    background-color: #000;
+    background-color: red;
     color: #fff;
 }
 /* endrer knappen når man holder over den*/
@@ -82,7 +82,7 @@ a:hover {
 }
 /* flex box for å fikse størrelsen på menyen */
 .inhold{
-    background-color: white;
+    background-color: #FF5B00;
     padding-left: 15px;
     font-size: 150%;
     font: "Candara";
@@ -116,7 +116,7 @@ a:hover {
 }
 /* setter menyen til høyre */
 td, th {
-    border: 2px solid #94BEE6;
+    border: 2px solid #D4D925;
     text-align: left;
     padding: 8px;
     border-radius: 5px;
@@ -172,15 +172,15 @@ td, th {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #FF5B00;
     -webkit-transition: .4s;
     transition: .4s;
 }
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #000;
 }
 input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #000;
 }
 input:checked + .slider:before {
     -webkit-transform: translateX(26px);

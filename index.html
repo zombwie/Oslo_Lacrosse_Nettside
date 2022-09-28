@@ -1,8 +1,10 @@
 <html>
     <head>
         <title>Lacross nettside</title>
-        <link rel="stylesheet" href="style.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/bilder/favicon.ico">
+        <script src="scripy.js"></script>
     </head>
     <body class="bakgrund">
       <div class="navbar">
@@ -56,6 +58,10 @@
                   <img src="/bilder/smile.JPG" id="smile" alt="logo" width="80%" class="bilder">
                 </div>
               </div>
+              <label class="switch">
+                <input type="checkbox" onclick="toggleTheme()">
+                <span class="slider round"></span>
+              </label>
             </div>
         </div>
     </body>
