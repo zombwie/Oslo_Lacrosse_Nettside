@@ -21,7 +21,6 @@ ul {
 }
 /* fikser størelsen på menyen og padding mellom menyen og innholdet */
 .titltle{
-    padding-top: 10%;
     font-size: 300%;
     font: "Century Gothic";
     color: #000;
@@ -48,15 +47,14 @@ a:hover {
     font-size: 100%;
     font: "Century Gothic";
     text-align: center;
-    padding: 10px 20px;
+    padding: 2px 5px;
     border-radius: 44px;
     border: 2px solid #000;
     background-color: #fff;
-    margin: 10px;
 }
 /* lager knappen med runder hjørner */
 .knapp:hover{
-    background-color: #000;
+    background-color: rgb(36, 31, 31);
     color: #fff;
 }
 /* endrer knappen når man holder over den*/
@@ -74,11 +72,14 @@ a:hover {
 .navbar {
     display: flex;
     flex-wrap: nowrap;
+    background-color: #000;
+    opacity: .8;
+    height: 50px;
 }
 .navbar > div {     
     color: #000;
     margin: 10px;
-    width: 60%;
+    padding-left: 33%;
 }
 /* flex box for å fikse størrelsen på menyen */
 .inhold{
@@ -109,14 +110,9 @@ a:hover {
     min-width: 100px;
 }
 /* setter runde hjørner på bildene og legger en skygge på bildene */
-.navk {
-    justify-content: right; 
-    padding-left: 50%;
-    padding-right: 20px;
-}
-/* setter menyen til høyre */
 td, th {
     border: 2px solid #94BEE6;
+    font-size: 150%;
     text-align: left;
     padding: 8px;
     border-radius: 5px;
@@ -132,14 +128,24 @@ td, th {
         width: 190%;
     }
   }
-  @media (max-width: 880px) {
-    .navk {
-        padding-left: 10%;
+  @media (max-width: 1200px) {
+    .navbar > div {
+        padding-left: 30%;
     }
   }
-  @media (max-width: 350px) {
-    .navk {
-        padding-left: -10%;
+  @media (max-width: 1030px) {
+    .navbar > div {
+        padding-left: 26%;
+    }
+  }
+  @media (max-width: 850px) {
+    .navbar > div {
+        padding-left: 22%;
+    }
+  }
+  @media (max-width: 700px) {
+    .navbar > div {
+        padding-left: 9%;
     }
   }
 /* fikser når sjermen er unner en størlse blir menyen endra og bildene blir skjult */
