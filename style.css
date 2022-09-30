@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 .bakgrund {
-    background-image: url("/bilder/bak.png");
+    background-image: url("bilder/bak.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
